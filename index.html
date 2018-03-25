@@ -593,7 +593,6 @@ ul.courses li:hover {
     margin-bottom: .5rem;
 }
 
-
 /****************
 *		TABLET
 ****************/
@@ -615,9 +614,6 @@ ul.courses li:hover {
 @media screen and (min-width: 1025px) {
     li {
         margin-left: 1.5em;
-    }
-    li.top_margin {
-        margin-top:1.5em;
     }
     #resume {
         width: 820px;
@@ -680,7 +676,17 @@ ul.courses li:hover {
         display: block;
     }
 }
+      
+/****************
+*		MOBILE
+****************/
+@media screen and (min-width: 0px and max-width: 601px) {
+    p.p_margin {
+            margin: 0px;
+    }
+   
 
+}
 @media print {
     #resume {
         margin: 0;
@@ -897,7 +903,9 @@ ul.courses li:hover {
       </header>
       <section id="volunteer">
         <section class="volunteer-item">
-    
+            
+		
+        <p class="p_margin"></p>
           <header>
             <div class="header-left">
               <div class="position">
@@ -923,9 +931,9 @@ ul.courses li:hover {
           <div class="item">
 		  <div class="summary">
           </div>
-              <p></p>
+              <p class="p_margin"></p>
             <ul class="highlights">
-              <li class="top_margin"><p>개인 포트폴리오 사이트 디자인   <a target="_blank" href="https://dl.dropboxusercontent.com/s/ssaju9r3g90kbbe/00_Portpolio_Description.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>    
+              <li><p>개인 포트폴리오 사이트 디자인   <a target="_blank" href="https://dl.dropboxusercontent.com/s/ssaju9r3g90kbbe/00_Portpolio_Description.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>    
               <li><p>교보문고 마이크로사이트 디자인   <a target="_blank" href="https://dl.dropbox.com/s/4t70k1kctocrgkp/Microsite_Kyobo.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>
              <li><p>League of Legend 프로모션 디자인    <a target="_blank" href="https://dl.dropbox.com/s/mobc3cr2b1zs8yk/03_WEB_Design_02_LOL_POPUP.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>    
               <li><p>MISSHA 프로모션 디자인  <a target="_blank" href="https://dl.dropbox.com/s/91aijwzwm0ahern/03_WEB_Design_01_Missha_popup.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>             
@@ -960,8 +968,9 @@ ul.courses li:hover {
             <div class="summary">
               
             </div>
+             <p class="p_margin"></p>
             <ul class="highlights">
-              <li class="top_margin"><p>데이트 스케쥴 작성 및 스케줄표 공유 기능 제공</p></li>
+              <li><p>데이트 스케쥴 작성 및 스케줄표 공유 기능 제공</p></li>
               <li><p>구글 지도기반 맛집 정보 및 관광명소 검색 서비스 제공</p></li>
               <li><p>데이트 후기 공유 블로그 제공</p></li>
               <li><p>개발 환경 : Java, Spring Framework, Oracle Database, Bootstrap, CSS, Html, javascript</p></li>
@@ -991,9 +1000,9 @@ ul.courses li:hover {
             </div>
           </header>
           <div class="item">
-            <p></p>
+            <p class="p_margin"></p>
             <ul class="highlights">
-              <li class="top_margin"><p>베트남 대학생 대상 IT 교육 및 한국문화 강의</p></li>
+              <li><p>베트남 대학생 대상 IT 교육 및 한국문화 강의</p></li>
             </ul>
           </div>
         </section>
@@ -1019,9 +1028,10 @@ ul.courses li:hover {
             </div>
           </header>
           <div class="item">
-            
+          <p class="p_margin"></p>
+
             <ul class="highlights">
-              <li class="top_margin"><p>월별 One Day 사업 기획 및 창업공모전 참여</p></li>
+              <li><p>월별 One Day 사업 기획 및 창업공모전 참여</p></li>
             </ul>
           </div>
         </section>

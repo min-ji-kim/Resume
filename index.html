@@ -160,6 +160,7 @@ p {
     display: block;
     margin-bottom: 1.3em;
 }
+ 
 
 a {
     color: #0095ff;
@@ -172,7 +173,7 @@ a:hover {
 }
 
 ul {
-    margin-top: 1rem;
+    margin-top: 6px;
 }
 
 li {
@@ -180,6 +181,8 @@ li {
     list-style-position: outside;
     margin-left: 1.3em;
 }
+li.li_sub
+      {list-style-type: none}
 
 .highlights>li>p {
     margin-bottom: 0.5em;
@@ -600,6 +603,8 @@ ul.courses li:hover {
         width: 80%;
         margin: 0 auto;
     }
+   
+
 }
 
 
@@ -778,7 +783,7 @@ ul.courses li:hover {
   <div id="resume">
     	<header id="header" class="clear">
     		<div>
-    			<h1 class="name">김민지 [ MINJI KIM ] <a target="_self" href="https://min-ji-kim.github.io/Resume/">[KR]</a><a target="_self" href="https://min-ji-kim.github.io/Resume_en/">[EN]</a></h1>
+    			<h1 class="name">김민지 [ MINJI KIM ] </h1>
     			<h2 class="label"></h2>
     		</div>
     		
@@ -789,18 +794,25 @@ ul.courses li:hover {
     		
     
     		<div id="contact">
-    			<div class="website">
-    				<span class="fa fa-external-link"></span>
-    				<a target="_blank" target="_blank" href="https://TBD">https://TBD</a>
-    			</div>
-    			<div class="email">
+                <div class="email">
     				<span class="fa fa-envelope-o"></span>
     				<a href="mailto:lindseykim0378@gmail.com">minjikim0511@gmail.com</a>
     			</div>
-    			<div class="phone">
-    		<!--		<span class="fa fa-mobile"></span>
-    				<a href="tel:(+82) 1035550511">(+82) 1035550511</a> 
-    			</div> -->
+                <div class="phone">
+    		        <span class="fa fa-mobile"></span>
+    				<a href="tel:(+82) 1035550511">(+82) lO.3555.O5ll</a> 
+    			</div> 
+                  <div class="resume">
+    		        <span class="fa fa-external-link"></span>
+    				<a target="_self" href="https://min-ji-kim.github.io/Resume_en/">English Resume</a> 
+    			</div> 
+                
+                
+    			<div class="website">                    
+    				<span class="fa fa-external-link"></span>
+    				<a target="_blank" href="https://dl.dropboxusercontent.com/s/ssaju9r3g90kbbe/00_Portpolio_Description.jpg?dl=0">https://TBD</a>
+    			</div>    			
+    			
     		</div>
     
     		<div id="profiles">
@@ -834,15 +846,16 @@ ul.courses li:hover {
     			
         	<span class="website">
         		<a target="_blank" href="https://www.ehanexmall.com">https://www.ehanexmall.com</a>
+                Global Life Style 컨셉의 쇼핑몰 플랫폼으로 해외,국내 배송 서비스 제공
         	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>(주)한진의 국제특송 Infra 활용, 해외 제품을 국내에서 손쉽게 구매할 수 있는 글로벌라이프스타일 컨셉의 쇼핑몰. <br/>이하넥스몰 총괄 담당으로 개발 기획참여, 운영, 개선 업무 수행 </p></p>
-            </div>
+            
             <ul class="highlights">
-                <li><p>신규사업 이하넥스몰 OPEN 개발기획 SET UP [ADMIN,입점업체,상품등록,정산,구매대행 페이지 등]</p></li>
-                <li><p>이하넥스몰 서비스 OPERATION [상품등록,정산,고객응대,ISSUE관리,서비스 개선 등]</p></li>
+                <li><p>신규사업 이하넥스몰 e-commerce 전용 플랫폼 개발기획 (Admin,상품관리,정산관리,운영관리 페이지 등) SET UP</p></li>
+                <li><p>한진 내부 시스템 (수입관리,국제특송) 연동관련 협의 및 기획</p></li>
+                <li><p>개발관련 테스트 진행 및 시스템 업그레이드 기획</p></li>
+                <li><p>이하넥스몰 서비스 OPERATION (상품등록, 정산, 고객응대, ISSUE관리, 서비스 개선 등) </p></li>                  
                 <li><p>글로벌 / 국내 VENDOR 제품 소싱 및 입점업체 관리 </p></li>
-                <li><p>이하넥스몰 운영 프로세스에 대한 정책수립</p></li>
+                <li><p>해외 B2B 업체 커뮤니케이션 및 매출관리 </p></li>
             </ul>
         	</div>
         </section>
@@ -861,11 +874,10 @@ ul.courses li:hover {
     			</header>
     			
         	<span class="website">
-        		<a target="_blank" href="www.equilar.com/">www.equilar.com/</a>
+        		<a target="_blank" href="www.equilar.com">www.equilar.com</a>
+                경영데이터 분석기관으로 기업분석 데이터 및 툴 제공
         	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>CEO 연봉 책정을 위한 동종업계  CEO 연봉 및 기업분석 데이터 제공 서비스 </p></p>
-            </div>
+            
             <ul class="highlights">
                 <li><p>Equilar 제품 Insight/Engage Service 테스트 업무 수행  </p></li>
                 <li><p>테스트 계획 수립, 테스트 케이스 작성, 매뉴얼 및 자동화 테스트 수행</p></li>
@@ -884,11 +896,14 @@ ul.courses li:hover {
         <section class="volunteer-item">
             
 		
-    
+        <p></p>
           <header>
             <div class="header-left">
               <div class="position">
-                개인 포트폴리오 웹사이트 제작
+                포트폴리오 웹사이트 제작
+              </div>
+               <div class="organization">
+                개인 프로젝트
               </div>
             
             </div>
@@ -906,14 +921,15 @@ ul.courses li:hover {
           </div>
           <div class="item">
 		  <div class="summary">
-              <p><p> <a target="_blank" href="https://TBD">https://TBD</a></p></p>
-            </div>
+          </div>
+              <p></p>
             <ul class="highlights">
-              <li><p>교보문고 마이크로사이트 디자인  </p></li>
-              <li><p>MISSHA 프로모션 디자인  <a target="_blank" href="https://dl.dropboxusercontent.com/s/4x9jqo1dt8256pm/WEB_03_Design_01_MISSHA_POPUP.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>
-              <li><p>League of Legend 프로모션 디자인    <a target="_blank" href="https://dl.dropbox.com/s/vh8euit5lszxb92/WEB_03_Design_02_LOL_POPUP.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>
-              <li><p>현대백화점 반응형 웹사이트 제작</p></li>
-              <li><p>한국지식재산권 반응형 웹사이트 제작</p></li>
+              <li><p>개인 포트폴리오 사이트 디자인   <a target="_blank" href="https://dl.dropboxusercontent.com/s/ssaju9r3g90kbbe/00_Portpolio_Description.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>    
+              <li><p>교보문고 마이크로사이트 디자인   <a target="_blank" href="https://dl.dropbox.com/s/4t70k1kctocrgkp/Microsite_Kyobo.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>
+             <li><p>League of Legend 프로모션 디자인    <a target="_blank" href="https://dl.dropbox.com/s/mobc3cr2b1zs8yk/03_WEB_Design_02_LOL_POPUP.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>    
+              <li><p>MISSHA 프로모션 디자인  <a target="_blank" href="https://dl.dropbox.com/s/91aijwzwm0ahern/03_WEB_Design_01_Missha_popup.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>             
+              <li><p>현대백화점 반응형 웹사이트 제작   <a target="_blank" href="https://dl.dropboxusercontent.com/s/e8lk975z1y19ky7/04_WEB_Develop_01_Huundai_popup.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>
+              <li><p>한국지식재산권 반응형 웹사이트 제작   <a target="_blank" href="https://dl.dropbox.com/s/yew636k4whorl7t/04_WEB_Develop_02_한국지식재산권_popup.jpg?dl=0"><span class="fa fa-image"></span></a></p></li>
             </ul>
           </div>
         </section>
@@ -941,12 +957,15 @@ ul.courses li:hover {
           </header>
           <div class="item">
             <div class="summary">
-              <p><p>Java, Spring Framework, Oracle Database, Bootstrap, CSS, Html, javascript </p></p>
+              
             </div>
+              <p></p>
             <ul class="highlights">
               <li><p>데이트 스케쥴 작성 및 스케줄표 공유 기능 제공</p></li>
               <li><p>구글 지도기반 맛집 정보 및 관광명소 검색 서비스 제공</p></li>
               <li><p>데이트 후기 공유 블로그 제공</p></li>
+              <li><p>개발 환경 : Java, Spring Framework, Oracle Database, Bootstrap, CSS, Html, javascript</p></li>
+
             </ul>
           </div>
         </section>
@@ -972,6 +991,7 @@ ul.courses li:hover {
             </div>
           </header>
           <div class="item">
+            <p></p>
             <ul class="highlights">
               <li><p>베트남 대학생 대상 IT 교육 및 한국문화 강의</p></li>
             </ul>
@@ -999,6 +1019,7 @@ ul.courses li:hover {
             </div>
           </header>
           <div class="item">
+              <p></p>
             <ul class="highlights">
               <li><p>월별 One Day 사업 기획 및 창업공모전 참여</p></li>
             </ul>
@@ -1018,9 +1039,7 @@ ul.courses li:hover {
               <div class="studyType">
                 경영정보시스템
               </div>
-              <div class="area">
-                Management Information System
-              </div>
+             
               <div class="institution">
                 국민대학교
               </div>
